@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Model files (large binaries)
+models/*.pth
+models/*.pkl
+
+# IDE
+.idea/
+.vscode/
+
+email-data-set/
