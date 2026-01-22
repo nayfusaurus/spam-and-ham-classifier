@@ -28,5 +28,8 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Install dependencies
+        run: uv add --dev bandit
+
       - name: Run Bandit scan
         run: bandit classifier.py
